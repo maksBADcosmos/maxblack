@@ -28,7 +28,7 @@ if (avatar) {
         case 2:
             avatar.style.backgroundImage = `url(${photos[2]})`;
             console.log('Рандом аватарка: ', randNum);
-            break;
+        break;
     }
 }
 
