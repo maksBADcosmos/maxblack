@@ -157,11 +157,27 @@
 
 .avatar {
     border-radius: 1em;
+    display: block;
+    margin: 0 auto;
+    width: 12em;
 }
 
-.avatar-link {
-    font-size: 2em; float: left;
-    margin: -.1em 6px 0 0;
+.profile h1 {
+    border-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.profile p {
+    text-align: center;
+    color: dimgray;
+    white-space: pre-line;
+}
+
+.profile {
+    padding-bottom: 30px;
 }
 
 /* Titles */
@@ -231,6 +247,18 @@ label[title="#Дизайн"] { background-image: url("./emoji/design.png") }
     .markdown-body {
         font-size: 18px;
         padding: 12px
+    }
+
+    .avatar {
+        width: 8em;
+    }
+
+    .profile h1 {
+        font-size: 2em;
+    }
+
+    .profile {
+        padding-top: 2em;
     }
 }
 
