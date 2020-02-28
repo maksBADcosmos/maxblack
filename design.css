@@ -197,6 +197,10 @@ label.history {
     background-image: url("./emoji/history.png");
 }
 
+label.f_face {
+    background-image: url("./emoji/frowning_face.png");
+}
+
 /* Icons */
 label.vk {
     background-image: url("./icons/vk.png");
