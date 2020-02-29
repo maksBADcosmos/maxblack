@@ -3,4 +3,9 @@ RewriteCond %{REQUEST_URI} ! \.html$
 RewriteCond %{REQUEST_URI} ! /$
 RewriteRule ^(.*)$ $1.html
 
+&lt;files .htaccess&gt;
+order allow,deny
+deny from all
+&lt;/files&gt;
+
 ErrorDocument 404 http://maxblack.space/404.html
