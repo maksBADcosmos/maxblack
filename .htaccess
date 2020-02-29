@@ -8,5 +8,7 @@ order allow,deny
 deny from all
 &lt;/files&gt;
 
+Options All -Indexes
+
 ErrorDocument 404 http://maxblack.space/404.html
 ErrorDocument 403 http://maxblack.space/403.html
