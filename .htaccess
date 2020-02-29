@@ -9,3 +9,4 @@ deny from all
 &lt;/files&gt;
 
 ErrorDocument 404 http://maxblack.space/404.html
+ErrorDocument 403 http://maxblack.space/403.html
