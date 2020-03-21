@@ -180,6 +180,20 @@
     padding-bottom: 30px;
 }
 
+.covid-title {
+    text-align: center;
+    font-size: 20px;
+    background: #ff484a;
+    color: white !important;
+    padding: 5px;
+}
+
+.covid-alert {
+    background: rgba(255, 74, 78, 0.16);
+    border: 1px solid #ff484a;
+    border-radius: 3px;
+}
+
 /* Titles */
 label.coder {
     background-image: url("./emoji/coder.png");
@@ -199,6 +213,18 @@ label.history {
 
 label.f_face {
     background-image: url("./emoji/frowning_face.png");
+}
+
+label.exclam {
+    background-image: url("./emoji/red_exclam.png");
+}
+
+label.cov {
+    background-image: url("./img/cov.png");
+}
+
+label.s_face {
+    background-image: url("./emoji/sneezing_face.png");
 }
 
 /* Icons */
