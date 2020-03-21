@@ -189,9 +189,22 @@
 }
 
 .covid-alert {
-    background: rgba(255, 74, 78, 0.16);
+    background: #ffd3d1;
     border: 1px solid #ff484a;
     border-radius: 3px;
+    z-index: 1;
+}
+
+.covid-section {
+    position: sticky;
+    top: 7px;
+    padding-bottom: 40px;
+}
+
+.covid-section p {
+    text-align: center;
+    color: dimgray;
+    white-space: pre-line;
 }
 
 /* Titles */
