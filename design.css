@@ -237,6 +237,13 @@
     margin-top: 10px;
 }
 
+.covid-advice {
+    background: #ffd3d1;
+    border: 1px solid #ff484a;
+    border-radius: 3px;
+    padding: 10px;
+}
+
 /* Titles */
 label.coder {
     background-image: url("./emoji/coder.png");
