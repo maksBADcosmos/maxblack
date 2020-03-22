@@ -207,6 +207,32 @@
     white-space: pre-line;
 }
 
+.covid-wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+.covid-monitoring {
+    display: table;
+    border-spacing: 10px 0;
+}
+
+.covid-card {
+    display: table-cell;
+    width: 120px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.covid-card p {
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
+
 /* Titles */
 label.coder {
     background-image: url("./emoji/coder.png");
