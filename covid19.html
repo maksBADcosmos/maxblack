@@ -1,132 +1,113 @@
 <!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Don't Panic: COVID-19</title>
-    <meta property="og:title" content="Коронавирус">
-    <meta property="og:description" name="description" content="Фонд борьбы с коронавирусом">
-    <meta property="og:image" content="http://maxblack.space/cfr_cover.png">
+        <title>Don't Panic: COVID-19</title>
+        <meta property="og:title" content="Коронавирус">
+        <meta property="og:description" name="description" content="Фонд борьбы с коронавирусом">
+        <meta property="og:image" content="http://maxblack.space/cfr_cover.png">
 
-    <link rel="icon" href="./img/cov.png" type="image/png">
-    <link rel="apple-touch-icon" href="./img/cov.png">
+        <link rel="icon" href="./img/cov.png" type="image/png">
+        <link rel="apple-touch-icon" href="./img/cov.png">
 
-    <meta name="keywords" content="covid, covid-19, ncov-2019, cov, coronaviridae, coronavirus, crownvirus, crownviridae, virus, china, crown, corona, mers, sars, sars-cov-2, sars-cov, коронавирус, covid19">
-    <meta name="author" content="Макс Чёрный">
+        <meta name="keywords" content="covid, covid-19, ncov-2019, cov, coronaviridae, coronavirus, crownvirus, crownviridae, virus, china, crown, corona, mers, sars, sars-cov-2, sars-cov, коронавирус, covid19">
+        <meta name="author" content="Макс Чёрный">
 
-    <link rel="stylesheet" href="./design.css">
-</head>
+        <link rel="stylesheet" href="css/covid.css">
+        <link rel="stylesheet" href="css/design.css">
 
-<body>
-<article class="markdown-body">
-    <section class="profile">
-        <img class="avatar" id="ava" src="img/cov.png">
-        <h1 class="title">
-            COVID-19
-        </h1>
-        <p class="description">Самая важная и необходимая
-            информация
-        </p>
-    </section>
-    <section class="covid-wrapper">
-        <div class="covid-monitoring">
-            <div class="covid-card">
-                <img class="covid-img" src="emoji/sneezing_face.png"/>
-                <h3>Заражено</h3>
-                <p id="covid-infected">-</p>
-            </div>
+        <style type="text/css">
+            .swal2-title, .swal2-content {
+                font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+                text-align: left !important;
+            }
 
-            <div class="covid-card">
-                <img class="covid-img" src="emoji/winking_f.png">
-                <h3>Выздоровело</h3>
-                <p id="covid-recovered">-</p>
-            </div>
+            .swal2-content a {
+                color: #0366d6;
+                text-decoration: none;
+            }
+        </style>
+    </head>
 
-            <div class="covid-card">
-                <img class="covid-img" src="emoji/skull.png">
-                <h3>Умерло</h3>
-                <p id="covid-deaths">-</p>
-            </div>
-        </div>
-    </section>
-    <section>
-        <h2>
-            <label class="emoji exclam"></label>
-            Важные ресурсы
-        </h2>
-        <b>
-            Единая горячая линия:
-            <a href="tel:88002000112">8-800-2000-112</a>
-        </b>
-        <br></br>
-        <ul>
-            <li>
-                <b>Основное</b>
-                <ul>
-                    <li>
-                        <a href="https://who.int" target="_blank" rel="noopener">Сайт Всемирной организации здравоохранения</a>
-                    </li>
+    <body>
+        <article class="markdown-body">
+            <section class="profile">
+                <img class="avatar" id="ava" src="img/cov.png">
+                <h1 class="title">
+                    COVID-19
+                </h1>
+                <p class="description">Самая важная и необходимая
+                    информация
+                </p>
+            </section>
+            <section class="covid-wrapper">
+                <div class="covid-monitoring">
+                    <div class="covid-card">
+                        <img class="covid-img" src="emoji/sneezing_face.png"/>
+                        <h3>Заражено</h3>
+                        <p id="covid-infected">-</p>
+                    </div>
 
-                    <li>
-                        <a href="https://www.rosminzdrav.ru/" target="_blank" rel="noopener">Сайт Минздрав России</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <b>Мониторинг</b>
-                <ul>
-                    <li>
-                        <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Мониторинг пандемии в реальном времени</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2>
-            <label class="emoji cov"></label>
-            Что такое коронавирус?
-        </h2>
-        <p>
-            <b>Коронавирусы</b> — это большое семейство вирусов, которые приводят к заболеваниям органов дыхания.
-            Чаще всего — без тяжёлых симптомов. Всего насчитывается около 40 видов коронавируса.
-            Пандемию вызвал SARS-CoV-2, который впервые был обнаружен в Китае в конце декабря.
-        </p>
-    </section>
-    <section>
-        <h2>
-            <label class="emoji s_face"></label>
-            Симптомы
-        </h2>
-        <ul>
-            <li>
-                <b>Стандартные признаки заражения</b>
-                <ul>
-                    <li>повышенная температура тела</li>
-                    <li>кашель</li>
-                    <li>одышка</li>
-                    <li>нарушение дыхания, ощущение сдавленности в грудной клетке</li>
-                </ul>
-            </li>
+                    <div class="covid-card">
+                        <img class="covid-img" src="emoji/winking_f.png">
+                        <h3>Выздоровело</h3>
+                        <p id="covid-recovered">-</p>
+                    </div>
 
-            <li>
-                <b>Редкие симптомы</b>
-                <ul>
-                    <li>тошнота, рвота</li>
-                    <li>диарея</li>
-                    <li>кашель с кровью</li>
-                    <li>головная боль</li>
-                </ul>
-            </li>
-        </ul>
-        <p class="covid-advice">
-            Если вы обнаружили у себя похожие симптомы — вызовите врача.
-            Обратиться за помощью можно, позвонив по номерам 112 или 103, а также по номеру горячей линии: 8-800-2000-112.
-        </p>
-    </section>
-</article>
-</body>
-<script src="code/covid19.js"></script>
+                    <div class="covid-card">
+                        <img class="covid-img" src="emoji/skull.png">
+                        <h3>Умерло</h3>
+                        <p id="covid-deaths">-</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>
+                    <label class="emoji exclam"></label>
+                    Важное
+                </h2>
+                <div class="color-cards_wrapper">
+                    <div class="color-cards">
+                        <div class="color-card" onclick="showCont('phone')">
+                            <img src="icons/covid19/phone.svg">
+                            <h3>Единая горячая линия</h3>
+                        </div>
+                        <div class="color-card" onclick="showCont('news')">
+                            <img src="icons/covid19/news.svg">
+                            <h3>Новости о COVID-19</h3>
+                        </div>
+                        <div class="color-card" onclick="showCont('recom')">
+                            <img src="icons/covid19/recom.svg">
+                            <h3>Рекомендации и советы</h3>
+                        </div>
+                        <div class="color-card" onclick="showCont('sites')">
+                            <img src="icons/covid19/sites.svg">
+                            <h3>Другие ресурсы</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="covid-footer_links">
+                    <ul>
+                        <li>
+                            <b>Читайте также:</b>
+                            <ul>
+                                <li>
+                                    <a onclick="showCont('covid19')">Что такое коронавирус?</a>
+                                </li>
+                                <li>
+                                    <a onclick="showCont('symptoms')">Симптомы</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </body>
+    <script src="code/covid19.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </html>
