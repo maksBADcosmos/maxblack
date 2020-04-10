@@ -1,6 +1,1 @@
-&lt;files .htaccess&gt;
-order allow,deny
-deny from all
-&lt;/files&gt;
-
 Options All -Indexes
