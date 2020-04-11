@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/maxblack/static/css/main.a3a19eb4.chunk.css",
+    "main.js": "/maxblack/static/js/main.53eb6127.chunk.js",
+    "main.js.map": "/maxblack/static/js/main.53eb6127.chunk.js.map",
+    "runtime-main.js": "/maxblack/static/js/runtime-main.662be6dc.js",
+    "runtime-main.js.map": "/maxblack/static/js/runtime-main.662be6dc.js.map",
+    "static/js/2.ee76e7c3.chunk.js": "/maxblack/static/js/2.ee76e7c3.chunk.js",
+    "static/js/2.ee76e7c3.chunk.js.map": "/maxblack/static/js/2.ee76e7c3.chunk.js.map",
+    "index.html": "/maxblack/index.html",
+    "precache-manifest.73982c18ea6b927980a71b34aa839faa.js": "/maxblack/precache-manifest.73982c18ea6b927980a71b34aa839faa.js",
+    "service-worker.js": "/maxblack/service-worker.js",
+    "static/css/main.a3a19eb4.chunk.css.map": "/maxblack/static/css/main.a3a19eb4.chunk.css.map",
+    "static/js/2.ee76e7c3.chunk.js.LICENSE.txt": "/maxblack/static/js/2.ee76e7c3.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/maxblack/static/media/1.f4e2b25f.png",
+    "static/media/2.png": "/maxblack/static/media/2.0fa44947.png",
+    "static/media/3.png": "/maxblack/static/media/3.38e41880.png",
+    "static/media/4.png": "/maxblack/static/media/4.93ae98d1.png",
+    "static/media/index.css": "/maxblack/static/media/TTCommons-Regular.fc6fbc1a.ttf",
+    "static/media/main.css": "/maxblack/static/media/vk.07cc44cb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.662be6dc.js",
+    "static/js/2.ee76e7c3.chunk.js",
+    "static/css/main.a3a19eb4.chunk.css",
+    "static/js/main.53eb6127.chunk.js"
+  ]
+}
